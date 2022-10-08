@@ -1,0 +1,62 @@
+*{
+   margin:0;
+   padding:0;
+
+}
+
+#ttulo{
+    font-family: sans-serif;
+    color:aliceblue;
+    margin-left: 10%;
+}
+
+#Subtítulo{
+    font-family: sans-serif;
+    color:aliceblue;
+    margin-left: 8%;
+}
+
+fieldset{
+   border= 2px;
+}
+
+body{
+  background-color:darkorchid;
+  font-family: sans-serif;
+  font-size: 1em;
+  color:white;
+  margin-left: 30% ;
+  margin-top: 2%;
+  justify-content:center;
+}
+
+input, text{
+    border-radius: 6px;
+}
+
+.campo{
+    margin-bottom: 1em;
+
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+fieldset.grupo.campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="E-mail"], .campo textarea{
+    padding: 0.2em;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    display: block;
+}
+
+.campo input:focus, .campo textarea:focus{
+    background: red;
+}

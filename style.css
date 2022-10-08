@@ -1,0 +1,141 @@
+
+*{
+ margin: 0;
+ padding:0;
+ box-sizing: border-box; 
+ text-decoration: none;
+ font-family: 'Lora', serif;
+ overflow: hidden;
+}
+
+body {
+font-size: 100%;
+background-image:url(./img/Lilac.jpg);
+background-repeat: no-repeat ;
+background-size: cover;
+
+}
+
+img{
+border-radius: 50%;
+}
+
+.cabecalho-menu {
+display:flex;
+justify-content: center;
+height: 40px;
+align-items: center;
+background-color: #7c06aada;
+
+}
+
+.cabecalho-menu-item {
+
+color:white;
+font-weight: 500;
+font-size: 30px;
+}
+
+.conteudo{
+margin-bottom: 50px;
+border-top:  2px solid cornsilk;
+}
+
+.conteudo-principal{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: 
+  "conteudo-principal-escrito conteudo-principal-escrito conteudo-principal-escrito cabecalho-imagem"
+  "conteudo-texto conteudo-texto conteudo-texto-2 conteudo-texto-2";
+  margin:2vh;
+  row-gap: 60px;
+}
+.conteudo-principal-escrito{
+ display: flex ;
+ flex-direction:column ;
+ gap: 35px;
+ grid-area:conteudo-principal-escrito;
+
+}
+
+
+.conteudo-principal-escrito-titulo{
+
+font: weight 200px;
+font-size: 50px;
+color:black;
+}
+
+.conteudo-principal-escrito-botao{
+background-color:darkorchid;
+width: 150px ;
+height:50px;
+border:none;
+border-radius: 20px;
+padding-left: 35px;
+padding-top: 10px;
+
+font-weight: 200px;
+font-size: 20px;
+color: antiquewhite;
+}
+
+.cabecalho-imagem{
+height: 250px;
+margin-left: 100px;
+grid-area:cabecalho-imagem;
+}
+.conteudo-texto{
+grid-area:conteudo-texto;
+margin-right: 5px;
+}
+
+ h2{
+  padding-left: 35vh;
+}
+.conteudo-texto-2{
+  grid-area: conteudo-texto-2;
+  margin-left: 5px;
+}
+
+
+.conteudo-principal-escrito-botao:hover{
+background-color:coral;
+}
+
+.rodape{
+  background-color: rgba(31, 18, 34, 0.836);
+  margin-bottom: 0;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  border-top:  2px solid cornsilk;
+
+}
+.rede-lista{
+display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin:5px;
+}
+label{
+margin-bottom: 30px;
+color: white;
+font-size: 12px;
+}
+
+.devicon-facebook-plain{
+font-size: 25px;
+}
+.devicon-linkedin-plain{
+font-size: 25px;
+}
+h5{
+color: white;
+}
